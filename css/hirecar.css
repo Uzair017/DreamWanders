@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --primary:rgb(239, 54, 3);
+    --secondary:#0b0b0b;
+    --light:rgb(110, 107, 107);
+    --tertiary:white;
+
+}
+/* #hire-car-container{
+    border: 2px solid yellow;
+} */
+
+#hire-car-container h1{
+color: var(--primary);
+font-family: poppins;
+border-radius: 30px;
+border-left: 10px solid var(--primary);
+border-right: 10px solid var(--primary);
+padding-left: 20px;
+
+}
+
+#hire-car-container p{
+    margin-top: 30px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+/* .car-material{
+    border: 2px solid yellow;
+    display: flex;
+    height: 300px;
+}
+.car-ad{
+    height: 100%;
+    width: 100%;
+    
+    
+    
+}
+.car-details{
+    background-color: aqua;
+} */
+ .cars{
+    margin-top: 20px;
+    height: 350px;
+    background-color: var(--primary);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2),  
+    0px -10px 20px rgba(247, 134, 4, 0.2);
+    border-bottom: 10px solid black;
+    border-top: 10px solid var(--primary);
+    
+    border-radius: 20px;   
+}
+.car-details{
+    
+    border-radius: 20px;  
+    border-bottom: 10px solid black;
+    border-top: 10px solid var(--primary);
+}
+.cars .cars-img{
+    width: 100%;
+    height: 100%;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    /* padding-top: 30px; */
+    border-radius: 40px ;
+   position: relative;
+   transition: 0.4s ease-in-out;
+    
+    
+}
+.cars-img:hover{
+    opacity: 0.8;
+}
+.cars .cars-img img{
+    border-radius: 20px;
+    height: 100%;
+}
+.car-details{
+    background-color: #0b0b0b;
+    color: var(--primary);
+    padding-left: 50px;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.car-details h2{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.car-details h3{
+    font-size: 24px;
+    margin-left: 20px;
+}
+.car-details h4{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.car-details button{
+    font-size: 18px;
+    margin-left: 20px;
+    width: 180px;
+    margin-top: 20px;
+ 
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+    border-radius: 7px;
+    height: 40px;
+    transition: 0.9s ease-in-out;
+}
+.car-details button:hover{
+    color: black;
+    background-color: var(--primary);
+}
